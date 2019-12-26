@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.rxExample">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".ui.withdragger.MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".ui.withdragger.ui.main.MainActivity">
+        </activity>
+        <activity
+                android:name=".ui.retrofitModified.ui.RetrofitModifiedActivity"
+                android:label="@string/title_activity_retrofit_modified"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ui.recyclerView.RecyclerViewExampleActivity">
+        </activity>
+        <activity android:name=".ui.lifecycle_livedata_viewmodel.livedata_viewmodel.LiveDataViewModel">
+        </activity>
+        <activity android:name=".ui.lifecycle_livedata_viewmodel.with_lifecycle.WithLifecycle">
+        </activity>
+        <activity
+                android:name=".ui.lifecycle_livedata_viewmodel.LifecycleExample"
+                android:label="@string/title_activity_lifecycle_example"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".ui.lifecycle_livedata_viewmodel.without_lifecycle.WithoutLifecycle">
+        </activity>
+        <activity android:name=".ui.retrofit.RetrofitActivity">
+        </activity>
+        <activity android:name=".ui.rx.networking.NetwokingActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.DelayActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.ConcatActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.MergeActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.FilterActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.TimerActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.ZipActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.MapActivity">
+        </activity>
+        <activity android:name=".ui.rx.operators.SimpleActivity">
+        </activity>
+        <activity android:name=".ui.rx.OperatorActivity">
+        </activity>
+        <activity android:name=".ui.SelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

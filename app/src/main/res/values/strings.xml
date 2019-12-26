@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rx Example</string>
+    <string name="title_activity_lifecycle_example">LifecycleExample</string>
+    <string name="title_activity_retrofit_modified">RetrofitModifiedActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
